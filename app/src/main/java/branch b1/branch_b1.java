@@ -3,9 +3,10 @@ public class branch_b1{
   float cgpa;
   double income;
 
-  branch_b1(String s, float c){
+  branch_b1(String s, float c,double i){
   this.name = s;
   this.cgpa = c;
+  this.income = i;
   }
 
   public float getCgpa(){
