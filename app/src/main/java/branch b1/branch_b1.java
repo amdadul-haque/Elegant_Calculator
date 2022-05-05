@@ -1,6 +1,7 @@
 public class branch_b1{
   String name;
   float cgpa;
+  double income;
 
   branch_b1(String s, float c){
   this.name = s;
@@ -20,5 +21,11 @@ public class branch_b1{
     this.name = name;
   }
 
+  public double getIncome(){
+    return income;
+  }
+  public void setIncome(double income){
+    this.income = income;
+  }
 }
 
