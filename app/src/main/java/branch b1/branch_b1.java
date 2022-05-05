@@ -1,8 +1,8 @@
-public class master_class{
+public class branch_b1{
   String name;
   float cgpa;
 
-  master_class(String s, float c){
+  branch_b1(String s, float c){
   this.name = s;
   this.cgpa = c;
   }
