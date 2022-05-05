@@ -1,13 +1,14 @@
 public class branch_b1{
   String name;
   float cgpa;
+  double income;
 
-  int number_of_classes;
 
-  branch_b1(String s, float c,int n){
+  branch_b1(String s, float c,double i){
   this.name = s;
   this.cgpa = c;
-  this.number_of_classes = n;
+  this.income = i;
+
   }
 
   public float getCgpa(){
@@ -22,11 +23,14 @@ public class branch_b1{
   public void setName(String name){
     this.name = name;
   }
-  public int getNumber_of_classes(){
-    return number_of_classes;
+
+
+  public double getIncome(){
+    return income;
   }
-  public void setNumber_of_classes(int number_of_classes){
-    this.number_of_classes = number_of_classes;
+  public void setIncome(double income){
+    this.income = income;
+
   }
 }
 
